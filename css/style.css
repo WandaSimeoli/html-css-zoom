@@ -11,26 +11,61 @@ body {
     background-color: black;
 } */
 .debug {
-    border: 1px dashed palevioletred;
-    height: 200px;
-
+    border: 1px dashed white;
 }
+/* .container {
+    margin: auto 0; 
+} */
 header {
     width: 100vw;
     background-color: black;
     display: flex;
     justify-content: flex-end;
-
+    margin-bottom: 15px;
 }
 header > * {
-    color: white;
     padding: 5px;
     border-radius: 10px;
     margin: 10px;
 }
 .gray {
     background-color: #4A4A4A;
+    color: white;
 }
 main {
     height: 80vh;
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col1-1 {
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.name {
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+} 
+footer {
+    background-color: #222222;
+    width: 100vw;
+    padding: 10px;
+    color: white;
+   
+}
+.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+.col3-2 {
+    color: red;
 }
