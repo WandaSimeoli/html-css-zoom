@@ -58,14 +58,26 @@ main {
 footer {
     background-color: #222222;
     width: 100vw;
-    padding: 10px;
-    color: white;
-   
+    color: white; 
 }
-.row2 {
+.row2{
     display: flex;
     justify-content: space-between;
 }
+.col2-2 > * {
+   padding-right: 10px;
+}
+.col1-2 > * {
+    padding-right: 10px;
+ }
 .col3-2 {
     color: red;
+    background-color: #4A4A4A;
+    padding: 15px;
+}
+.row3 {
+    display: flex;
+}
+.green {
+    color: green;
 }
