@@ -3,9 +3,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 
+    font-family: 'Roboto', sans-serif;
 }
 .container {
-    max-width: ;
+    max-width: 1200px;
     margin: 0 auto;
 }
