@@ -5,23 +5,14 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-/* .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: black;
-} */
 .debug {
     border: 1px dashed white;
 }
-/* .container {
-    margin: auto 0; 
-} */
 header {
     width: 100vw;
     background-color: black;
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 15px;
 }
 header > * {
     padding: 5px;
@@ -33,7 +24,7 @@ header > * {
     color: white;
 }
 main {
-    height: 80vh;
+    height:80vh;
 }
 .row1 {
     display: flex;
@@ -41,8 +32,8 @@ main {
 }
 .col1-1 {
     width: 200px;
-    height: 100px;
-    margin: 5px;
+    height: 120px;
+    margin: 2px;
     background-image: url(https://picsum.photos/200/300);
     background-size: cover;
     background-position: bottom;
@@ -65,19 +56,34 @@ footer {
     justify-content: space-between;
 }
 .col2-2 > * {
-   padding-right: 10px;
+   padding-right: 15px;
+   font-size: large;
 }
 .col1-2 > * {
-    padding-right: 10px;
+    padding-right: 15px;
+    padding-left: 8px;
  }
 .col3-2 {
     color: red;
     background-color: #4A4A4A;
-    padding: 15px;
 }
 .row3 {
     display: flex;
+    margin-top: -20x;
+}
+.row3 > .col2-3 {
+    justify-content: center;
 }
 .green {
     color: green;
+}
+.col1-3 > * {
+    font-size: small;
+    padding-right: 40px;
+}
+.col2-3 > * {
+    font-size: small;
+}
+span {
+    display: inline-block;
 }
