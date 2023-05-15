@@ -4,12 +4,12 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
-.debug {
+/* .debug {
     border: 1px dashed white;
-}
+} */
 header {
-    width: 100vw;
     height: 30px;
     background-color: black;
     display: flex;
@@ -51,42 +51,27 @@ main {
 } 
 footer {
     background-color: #222222;
-    width: 100vw;
     color: white; 
     height: 50px;
 }
 .row2{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.col2-2 > * {
-   padding-right: 15px;
-   font-size: large;
+.row2 > * {
+    padding: 10px;
 }
-.col1-2 > * {
-    padding-right: 15px;
-    padding-left: 8px;
- }
+button {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
 .col3-2 {
     color: red;
     background-color: #4A4A4A;
 }
-.row3 {
-    display: flex;
-}
-.row3 > .col2-3 {
-   align-items: center;
-}
 .green {
     color: green;
 }
-.col1-3 > * {
-    font-size: small;
-    padding-right: 40px;
-}
-.col2-3 > * {
-    font-size: small;
-}
-span {
-    display: inline-block;
-}
+
